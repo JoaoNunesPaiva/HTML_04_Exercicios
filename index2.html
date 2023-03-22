@@ -9,11 +9,10 @@
 <body>
     <main>
     <h1>CatPhotoApp</h1>
+<section class="cats">
     <h2>Cat Photos</h2>
     <p>See more <a href="http://www.google.com">cat photos</a> in our gallery</p>
     <a href="https://www.britannica.com/list/the-10-best-types-of-cat" target="_blank"><img src="images/3.jpg" alt="cat3"></a>
-</main>
-<section class="cats">
     <h2>Cat lists</h2>
     <h3>Things cats love:</h3>
     <ul>
@@ -21,40 +20,46 @@
         <li>laser pointers</li>
         <li>lasagna</li>
     </ul>
-    <figure><img src="images/lasagna.jpg" alt="lasagna"></figure>
-    <figcaption>Cats <em>love</em> lasagna</figcaption>
+    <figure>
+        <img src="images/lasagna.jpg" alt="lasagna">
+        <figcaption>Cats <em>love</em> lasagna</figcaption>
+    </figure>
    <h3>Top 3 things cats hate</h3>
     <ol>
         <li>flea treatment</li>
         <li>thunder</li>
         <li>other cats</li>
     </ol>
-    <figure><img src="images/2.jpg" alt="gato2"></figure>
+    <figure>
+        <img src="images/2.jpg" alt="gato2">
     <figcaption>Cats <strong>hate</strong> other cats</figcaption>
+    </figure>
 </section>
 <section class="catform">
     <form>
-        <h3>Cat Form</h3>
+        <caption>Cat Form</caption>
     <fieldset>
         <legend>Is your cat an indoor or outdoor cat?</legend>
-<input type="radio" name="cat" id="indoor" value="indoor" checked>
-<label for="indoor">Indoor</label>
-<input type="radio" name="cat" id="outdoor" value="outdoor">
-<label for="outdoor">Outdoor</label>
+            <input type="radio" name="cat" id="indoor" value="indoor" checked>
+            <label for="indoor">Indoor</label>
+            <input type="radio" name="cat" id="outdoor" value="outdoor">
+            <label for="outdoor">Outdoor</label>
     </fieldset>
     <fieldset>
-    <legend>What's your cat's personality?</legend>
-<input type="checkbox" name="personality" id="Loving" value="Loving" checked>
-<label for="Loving">Loving</label>
-<input type="checkbox" name="personality" id="Lazy" value="Lazy">
-<label for="Lazy">Lazy</label>
-<input type="checkbox" name="personality" id="Energetic" value="Energetic">
-<label for="Energetic">Energetic</label>
+        <legend>What's your cat's personality?</legend>
+            <input type="checkbox" name="personality" id="Loving" value="Loving" checked>
+            <label for="Loving">Loving</label>
+            <input type="checkbox" name="personality" id="Lazy" value="Lazy">
+            <label for="Lazy">Lazy</label>
+            <input type="checkbox" name="personality" id="Energetic" value="Energetic">
+            <label for="Energetic">Energetic</label>
     </fieldset>
-<input type="url" id="url" name="url" placeholder="cat photo URL" required>
-<input type="submit" value="Submit">
+        <input type="url" id="url" name="url" placeholder="cat photo URL" required>
+        <input type="submit" value="Submit">
+        <!--  <button type="submit">Submit</button> -->
     </form>
 </section>
+</main>
 <footer>
     <p>No copyright - <a href="http://www.freeCodeCamp.org" target="_blank">freeCodeCamp.org</a></p>
 </footer>
