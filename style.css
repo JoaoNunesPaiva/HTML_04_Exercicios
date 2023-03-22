@@ -26,3 +26,6 @@ th, td{
 tbody tr:nth-child(even) {
 background: rgb(189, 189, 189);
 }
+.company{
+ font-style: italic;
+}
