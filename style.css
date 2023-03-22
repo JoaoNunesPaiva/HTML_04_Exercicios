@@ -20,3 +20,6 @@ thead,
 tr:nth-child(even){
     background-color: #dddddd;
 }
+tbody tr:nth-child(odd){
+    background-color: rgb(133, 133, 133);
+}
